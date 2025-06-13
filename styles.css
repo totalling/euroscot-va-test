@@ -53,6 +53,13 @@ body, html {
   display: flex;
   align-items: center; 
   padding: 5px 0;       
+  transition: background 0.2s, color 0.2s, transform 0.2s;
+}
+
+.nav-links li:hover:not(.active) {
+  color: #002c5f;
+  border-radius: 5px;
+  transform: translateY(-2px) scale(1.04);
 }
 
 .nav-links .active {
@@ -94,6 +101,14 @@ body, html {
   font-weight: bold;
   text-decoration: none;
   gap: 10px;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.2s; 
+}
+
+.btn:hover {
+  background-color: #0051a8;
+  color: #fff;
+  box-shadow: 0 2px 12px rgba(0,44,95,0.15);
+  transform: translateY(-2px) scale(1.03);
 }
 
 .btn img {
@@ -192,31 +207,3 @@ a {
   transform: scale(1.02);
 }
 
-/* Image Modal Styles */
-.img-modal {
-  display: none;
-  position: fixed;
-  z-index: 2000;
-  left: 0; top: 0;
-  width: 100vw; height: 100vh;
-  background: rgba(0,0,0,0.85);
-  align-items: center;
-  justify-content: center;
-}
-.img-modal-content {
-  max-width: 90vw;
-  max-height: 80vh;
-  border-radius: 12px;
-  box-shadow: 0 0 20px #000;
-}
-.img-modal-close {
-  position: absolute;
-  top: 30px;
-  right: 50px;
-  color: #fff;
-  font-size: 3rem;
-  font-weight: bold;
-  cursor: pointer;
-  z-index: 2100;
-  text-shadow: 0 0 10px #000;
-}
