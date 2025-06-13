@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+.main {
+  background: url('images/background.png') no-repeat center center/cover;
+  height: 100vh;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.logo-img {
+  height: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-weight: bold;
+}
+
+.nav-links li {
+  cursor: pointer;
+  display: flex;
+  align-items: center; 
+  padding: 5px 0;       
+}
+
+.nav-links .active {
+  background-color: #002c5f;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 5px;
+}
+
+.content {
+  padding-left: 40px;
+  max-width: 700px;
+  transform: translateY(-150px); 
+}
+
+.content h1 {
+  font-size: 3rem;
+  color: #002c5f;
+}
+
+.content p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  background-color: #002c5f;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  gap: 10px;
+}
+
+.btn img {
+  height: 24px;
+  width: auto;
+}
+
+.footer-logos {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: 20px 40px;
+}
+
+.footer-logo {
+  height: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
