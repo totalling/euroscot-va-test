@@ -1,1 +1,1 @@
-A testing site to test my skills and show off a prototype for my virtual aitline, @ https://euroscot-virtual.co.uk/
+A testing site to test my skills and show off a prototype for my virtual airline, @ https://euroscot-virtual.co.uk/
