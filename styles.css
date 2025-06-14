@@ -142,7 +142,7 @@ a {
   max-width: 900px;
   margin: 100px auto;
   padding: 40px;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 21, 59, 0.9); 
   border-radius: 12px;
   color: #ffffff;
   font-size: 1.1rem;
@@ -160,7 +160,7 @@ a {
   padding: 20px;
   text-align: center;
   color: #ffffff;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 21, 59, 0.9); 
   border-radius: 12px;
   color: #ffffff;
   font-size: 1.1rem;
@@ -246,7 +246,7 @@ a {
 
 .staff-member h2 {
   font-size: 1.3rem;
-  color: #0066da;
+  color: #cecece;
   margin-bottom: 4px;
   margin-top: 0;
 }
@@ -292,7 +292,5 @@ a {
   max-width: 420px;
   min-width: 420px;
 }
-  margin-left: auto;
-  margin-right: auto;
-}
-}
+
+
