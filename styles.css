@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 
-.about-page .main {
-    background: url("images/background2.png") no-repeat center center/cover;
-    background-attachment: fixed;
+.about-page body,
+.about-page html {
+    background: url("images/background2.png") no-repeat center center/cover fixed;
 }
 
-.home-page .main {
-    background: url("images/background.png") no-repeat center center/cover;
-    background-attachment: fixed;
+.home-page body,
+.home-page html {
+    background: url("images/background.png") no-repeat center center/cover fixed;
 }
 
 body,
@@ -20,6 +20,8 @@ html {
     font-family: "Schibsted Grotesk", sans-serif;
     margin: 0;
     padding: 0;
+    overscroll-behavior-y: contain;
+    overflow-y: hidden;
 }
 
 .main {
@@ -29,6 +31,9 @@ html {
     flex-direction: column;
     justify-content: space-between;
     padding-bottom: 70px;
+    background: transparent;
+    overflow-y: auto;
+    max-height: 100vh;
 }
 
 .navbar {
